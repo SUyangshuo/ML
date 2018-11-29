@@ -1,10 +1,15 @@
-#!/usr/bin/env pytho      
+#!/usr/bin/env pytho
 # -*- coding: utf-8 -*-
 # @Time    : 2018/11/19 4:09 PM
 # @Author  : YangShuo
+import tensorflow as tf
+print(tf.__version__)
 
-from tensorflow.models.tutorials.image.cifar10 import cifar10 as cifar10
-from tensorflow.models.tutorials.image.cifar10 import cifar10_input as cifar10_input
+print(tf.__path__)
+
+
+from tensorflow.models.tutorials.image.cifar10 import cifar10
+from tensorflow.models.tutorials.image.cifar10 import cifar10_input
 from tensorflow.models.tutorials.rnn.ptb import reader #存在models了也可以导入了
 
 
