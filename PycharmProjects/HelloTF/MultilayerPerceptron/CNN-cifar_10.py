@@ -6,12 +6,13 @@ import tensorflow as tf
 print(tf.__version__)
 
 print(tf.__path__)
+import sys
+path ='/anaconda2/envs/python36/lib/python3.6/site-packages/tensorflow/models/tutorials/image/cifar10'
+sys.path.append(path)
 
 
 from tensorflow.models.tutorials.image.cifar10 import cifar10
 from tensorflow.models.tutorials.image.cifar10 import cifar10_input
-from tensorflow.models.tutorials.rnn.ptb import reader #存在models了也可以导入了
-
 
 
 import tensorflow as tf
@@ -38,9 +39,9 @@ def variable_with_weight_loss(shape,stddev,w1):
 cifar10.maybe_download_and_extract()
 
 # 产生训练需要的数据  包括有label 这里返回的是tensor
-images_train, labels_train = cifar10_input.distorted_inputs(eval_data=True,  # 已经对数据增强 包括了水平翻转，随机剪切，设置随机亮度
-                                              data_dir=data_dir,
-                                              batch_size=batch_size)
+images_train, labels_train = cifar10_input.distorted_inputs(  # 已经对数据增强 包括了水平翻转，随机剪切，设置随机亮度
+                                                            data_dir = data_dir,
+                                                            batch_size = batch_size)
 
 # 产生测试数据
 images_test, labels_test = cifar10_input.inputs(eval_data=True,
@@ -77,7 +78,7 @@ pool2 = tf.nn.max_pool(norm2,ksize=[1, 3, 3, 1], strides=[1, 2, 2, 1], padding='
 全连接层1
 '''
 reshape = tf.reshape(pool2, [batch_size, -1])  # 每个样本变成1维向量
-dim = reshape.get_shap()[1].value
+dim = reshape.get_shape()[1].value
 weight3 = variable_with_weight_loss(shape=[dim, 384], stddev=0.04, w1=0.004)
 bias3 = tf.Variable(tf.constant(0.1, shape=[384]))
 local3 = tf.nn.relu(tf.matmul(reshape, weight3)+bias3)
