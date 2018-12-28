@@ -22,16 +22,38 @@ package medium.charsTransform;
 public class atoi {
 
     public static int myAtoi(String str){
+        //注意是第一个不为0的数字
         String newstr=str.trim();
+        int i=0,index=1;
+        long base=0;
         if(!newstr.isEmpty()){
-            int i=0,index=1;//判断转化后的数字是正还是负
-            long base=0;
-            index=newstr.charAt(0)=='-'?-1:1;
 
-            
+            //判断转化后的数字是正还是负
+            if(newstr.charAt(i)=='-' || newstr.charAt(i)=='+'){
+                index=newstr.charAt(i)=='-'?-1:1;
+                i++;
+            }
+            boolean temp=true;
+            while(newstr.charAt(i)>='0' && newstr.charAt(i)<='9'){
+                if(newstr.charAt(i)=='0' && temp){
+                    i++;
+                    continue;
+                }
+                //第一非0判断
+                temp=false;
+                base=(base*10) + (newstr.charAt(i++)-'0');
+                if(base>Integer.MAX_VALUE){
+                    return index==1?Integer.MAX_VALUE:Integer.MIN_VALUE;
+                }
+            }
+
+
+
+
         }else{
             return 0;
         }
+        return (int)(index * base);
 
     }
 }
