@@ -62,7 +62,7 @@
         <entry file="file://$PROJECT_DIR$/word2vec/rnn-word2vec.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="929">
-              <caret line="95" column="38" selection-start-line="95" selection-start-column="38" selection-end-line="95" selection-end-column="38" />
+              <caret line="95" column="40" lean-forward="true" selection-start-line="95" selection-start-column="40" selection-end-line="95" selection-end-column="40" />
               <folding>
                 <element signature="e#105#123#0" expanded="true" />
               </folding>
@@ -777,7 +777,7 @@
     <entry file="file://$PROJECT_DIR$/word2vec/rnn-word2vec.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="929">
-          <caret line="95" column="38" selection-start-line="95" selection-start-column="38" selection-end-line="95" selection-end-column="38" />
+          <caret line="95" column="40" lean-forward="true" selection-start-line="95" selection-start-column="40" selection-end-line="95" selection-end-column="40" />
           <folding>
             <element signature="e#105#123#0" expanded="true" />
           </folding>
