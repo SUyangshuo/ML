@@ -6,6 +6,8 @@ package medium.charsTransform;
  * @comment
  */
 
+import javax.rmi.CORBA.Util;
+
 /**
  * Implement atoi which converts a string to an integer.
 
@@ -34,7 +36,7 @@ public class atoi {
                 i++;
             }
             boolean temp=true;
-            while(newstr.charAt(i)>='0' && newstr.charAt(i)<='9'){
+            while(newstr.length()>i && newstr.charAt(i)>='0' && newstr.charAt(i)<='9'){
                 if(newstr.charAt(i)=='0' && temp){
                     i++;
                     continue;

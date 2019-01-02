@@ -71,8 +71,37 @@ def build_dataset(words):
     #  zip方法 是把两个迭代器一一对应 产出一个元组，再使用list方法可以转化为列表 dict是转化为一个字典，存储key和valueas
     reverse_dictionary = dict(zip(dictionary.values(), dictionary.keys()))
     return data, count, dictionary, reverse_dictionary
-data, count, dictionary, reverse_dictionary = build_dataset(words)
+    data, count, dictionary, reverse_dictionary = build_dataset(words)
 
+# 删除原始单词列表
+
+data_index = 0
+
+# batch大小--每个单词生成多少个样本(不能大于窗口值)---最远可以联系到的距离
+# 并且batch——size必须是num_skips的整数倍
+def generate_batch(batch_size, num_skips, skip_window):
+    global data_index
+    assert batch_size % num_skips == 0
+    assert num_skips <= 2 * skip_window
+    batch = np.ndarray(shape=(batch_size), dtype=np.int32)
+    labels = np.ndarray(shape=(batch_size,1), dtype=np.int32)
+    span = 2* skip_window + 1
+    buffer = collections.deque(maxlen=span)
+
+    for _ in range(span):
+        buffer.append(data[data_index])
+        data_index = (data_index + 1) % len(data)
+    for i in range(batch_size // num_skips):
+        target = skip_window
+        targets_to_avoid = [skip_window]
+        for j in range(num_skips):
+            while target in targets_to_avoid:
+                target = random.randint(0, span - 1)
+            targets_to_avoid.append(target)
+            batch[i * num_skips + j] = buffer[skip_window]
+            labels[i * num_skips + j, 0] = buffer[target]
+        buffer.append(data_index + 1) % len(data)
+    return batch, labels
 
 
 
