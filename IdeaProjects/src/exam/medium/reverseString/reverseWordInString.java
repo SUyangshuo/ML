@@ -28,7 +28,7 @@ import java.util.Stack;
  */
 public class reverseWordInString {
     public static void main(String[] args) {
-        String ii="the sky is blue";
+        String ii="the sky is  blue";
         String i=reverseWords(ii);
         System.out.println("最终结果是"+i);
     }
@@ -50,6 +50,7 @@ public class reverseWordInString {
                     lastTemp=newstr.charAt(index);
                 }else if(lastTemp!=' '){
 
+                    lastTemp=newstr.charAt(index);
 
                     stack.push(temp);
                     temp="";
