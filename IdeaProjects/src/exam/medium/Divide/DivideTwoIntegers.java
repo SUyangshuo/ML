@@ -18,48 +18,65 @@ package medium.Divide;
  */
 public class DivideTwoIntegers {
     public static void main(String[] args) {
-        int i =divide(10,3);
+        long i =divide(-2147483648,2);
         System.out.println("结果是："+i);
     }
-    public static int divide(int dividend, int divisor) {
-        if(divisor ==0
-                || dividend == divisor
-                || dividend >=Integer.MAX_VALUE
-                || divisor >=Integer.MAX_VALUE
-                || divisor <=Integer.MIN_VALUE
-                || dividend <=Integer.MIN_VALUE
-                || divisor==1
-                || dividend==0
-                ){
-            return 0;
-        }else if( dividend < divisor){
-            return dividend;
-        }
+    public static long divide(int dividend, int divisor) {
         int sig=1;
         if((dividend<0 && divisor<0 ) ){
             sig=1;
         }else if(dividend<0 || divisor<0){
             sig=-1;
         }
+        if(divisor == -1 && dividend == Integer.MIN_VALUE){
+            return Integer.MAX_VALUE;
 
-        //todo:利用除数的左移
-        int temp=divisor;
-        int count=-1;
-        int count2=-1;
-        while(temp<dividend){
+        }else if(dividend==divisor){
 
-            while((divisor << 1)<dividend){
-                divisor=divisor << 1;
-                count++;
-            }
-            if(dividend==divisor){
-                return  2<<count;
-            }
-            dividend=dividend-divisor;
-            divisor=temp;
-            count2++;
+            return 1;
+        }else if(divisor==1){
+            return dividend;
         }
 
-    return  sig*((2<<count)+count2);
+        long dividendnew= Math.abs((long)dividend);
+        long divisornew= Math.abs((long)divisor);
+
+        if(divisornew ==0
+                || dividendnew==0
+                || dividendnew < divisornew
+                ){
+            //System.out.println("我进来了");
+            return 0;
+        }else if(dividendnew==divisornew){
+
+            return sig*1;
+        }
+
+
+        //todo:利用除数的左移
+        long temp=divisornew;
+        int result=0;
+        int count2=-1;
+        while(temp<dividendnew){
+            int count=1;
+            while((divisornew << 1)<=dividendnew){
+
+                divisornew=divisornew << 1;
+                count = count<<1;
+                System.out.println(divisornew+"+++"+count);
+
+            }
+            if(dividendnew==divisornew){
+                return  sig*count;
+            }
+            result=result+count;
+            dividendnew=dividendnew-divisornew;
+            System.out.println("被除数是"+dividendnew);
+
+            divisornew=temp;
+            count2++;
+        }
+        System.out.println(sig);
+        return  sig*result;
     }
 }
