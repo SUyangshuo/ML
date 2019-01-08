@@ -66,12 +66,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PrimePalindrome.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PrimePalindrome.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/exam/medium/palindromicNumber/PrimePalindrome.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-131">
+            <state relative-caret-position="-139">
               <caret line="46" column="5" lean-forward="true" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Fraction.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/exam/medium/FractionToRecurringDecimal/Fraction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="49" lean-forward="false" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="49" />
+              <folding>
+                <element signature="e#1115#1129#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -99,6 +111,7 @@
         <option value="$PROJECT_DIR$/src/exam/medium/reverseString/reverseWordInString.java" />
         <option value="$PROJECT_DIR$/src/exam/medium/Divide/DivideTwoIntegers.java" />
         <option value="$PROJECT_DIR$/src/exam/medium/palindromicNumber/PrimePalindrome.java" />
+        <option value="$PROJECT_DIR$/src/exam/medium/FractionToRecurringDecimal/Fraction.java" />
       </list>
     </option>
   </component>
@@ -190,7 +203,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PrimePalindrome">
+  <component name="RunManager" selected="Application.Fraction">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -206,6 +219,25 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="medium.Divide.DivideTwoIntegers" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="IdeaProjects" />
+      <envs />
+    </configuration>
+    <configuration name="Fraction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="medium.FractionToRecurringDecimal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="medium.FractionToRecurringDecimal.Fraction" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -329,16 +361,18 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Application.reverseWordInString" />
       <item index="1" class="java.lang.String" itemvalue="Application.DivideTwoIntegers" />
       <item index="2" class="java.lang.String" itemvalue="Application.PrimePalindrome" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Fraction" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Application.PrimePalindrome" />
-        <item index="1" class="java.lang.String" itemvalue="Application.DivideTwoIntegers" />
-        <item index="2" class="java.lang.String" itemvalue="Application.reverseWordInString" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Application.Fraction" />
+        <item index="1" class="java.lang.String" itemvalue="Application.PrimePalindrome" />
+        <item index="2" class="java.lang.String" itemvalue="Application.DivideTwoIntegers" />
+        <item index="3" class="java.lang.String" itemvalue="Application.reverseWordInString" />
       </list>
     </recent_temporary>
   </component>
@@ -373,12 +407,12 @@
       <workItem from="1546002165080" duration="2796000" />
       <workItem from="1546415562641" duration="3066000" />
       <workItem from="1546501275249" duration="4469000" />
-      <workItem from="1546602666283" duration="10493000" />
+      <workItem from="1546602666283" duration="14225000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25650000" />
+    <option name="totallyTimeSpent" value="29382000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -392,7 +426,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36275697" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25272068" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19385515" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -604,9 +638,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/exam/medium/palindromicNumber/PrimePalindrome.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-131">
+        <state relative-caret-position="-139">
           <caret line="46" column="5" lean-forward="true" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exam/medium/FractionToRecurringDecimal/Fraction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="49" lean-forward="false" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="49" />
+          <folding>
+            <element signature="e#1115#1129#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
