@@ -35,9 +35,7 @@ public class PrimePalindrome {
             return 11;
         }
         //N=N+1;
-        if(N==9989900||N==85709140||N==51633903||N==61023998||N==45887963||N==31880255){
-            return 100030001;
-        }
+
 
         while(isnotPalindrome(N) || isnotPrime(N)){
             N++;
@@ -50,7 +48,7 @@ public class PrimePalindrome {
     //判断回文数
     public static boolean isnotPalindrome(int x){
         String temp1=String.valueOf(x);
-        String temp= new StringBuilder(temp1).reverse().toString();
+        String temp= new StringBuilder(temp1).reverse().toString(); //费时
         if(temp.equals(temp1) && (temp.length()%2!=0 || x<=11)){ //奇数位才可以
             return false;
 
@@ -71,6 +69,18 @@ public class PrimePalindrome {
         }
         return booler;
     }
+    public static boolean isnotPalindrome2(int x){
 
+        int a, b, c;
+        a = x;
+        b = 0;
+        c = 0;
+        while (x>0){
+            c = x % 10;
+            x /= 10;
+            b = b * 10 + c;
+        }
+       return a!=b;
+    }
 
 }
