@@ -20,9 +20,9 @@ public class Fraction {
         if((numerator<0 && denominator>0) ||(numerator>0 && denominator<0)){
             result.append("-");
         }
-        long denominatorNew=Math.abs(denominator);
+        long denominatorNew=Math.abs((long)denominator);
 
-        long numeratorNew=Math.abs(numerator);
+        long numeratorNew=Math.abs((long)numerator);
         System.out.println("除数和被除数"+numeratorNew+"))))"+denominatorNew+"()()()("+denominator);
 
 
