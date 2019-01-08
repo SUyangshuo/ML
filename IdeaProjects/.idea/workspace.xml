@@ -59,8 +59,8 @@
       <file leaf-file-name="DivideTwoIntegers.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/exam/medium/Divide/DivideTwoIntegers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="69" column="34" lean-forward="true" selection-start-line="69" selection-start-column="24" selection-end-line="69" selection-end-column="34" />
+            <state relative-caret-position="275">
+              <caret line="22" column="5" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="22" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -69,8 +69,8 @@
       <file leaf-file-name="PrimePalindrome.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/exam/medium/palindromicNumber/PrimePalindrome.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="497">
-              <caret line="37" column="24" lean-forward="true" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
+            <state relative-caret-position="313">
+              <caret line="39" column="9" lean-forward="true" selection-start-line="37" selection-start-column="8" selection-end-line="39" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -190,7 +190,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DivideTwoIntegers">
+  <component name="RunManager" selected="Application.PrimePalindrome">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -206,6 +206,25 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="medium.Divide.DivideTwoIntegers" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="IdeaProjects" />
+      <envs />
+    </configuration>
+    <configuration name="PrimePalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="medium.palindromicNumber.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="medium.palindromicNumber.PrimePalindrome" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -310,14 +329,16 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Application.reverseWordInString" />
       <item index="1" class="java.lang.String" itemvalue="Application.DivideTwoIntegers" />
+      <item index="2" class="java.lang.String" itemvalue="Application.PrimePalindrome" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Application.DivideTwoIntegers" />
-        <item index="1" class="java.lang.String" itemvalue="Application.reverseWordInString" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Application.PrimePalindrome" />
+        <item index="1" class="java.lang.String" itemvalue="Application.DivideTwoIntegers" />
+        <item index="2" class="java.lang.String" itemvalue="Application.reverseWordInString" />
       </list>
     </recent_temporary>
   </component>
@@ -352,12 +373,12 @@
       <workItem from="1546002165080" duration="2796000" />
       <workItem from="1546415562641" duration="3066000" />
       <workItem from="1546501275249" duration="4469000" />
-      <workItem from="1546602666283" duration="7395000" />
+      <workItem from="1546602666283" duration="9963000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22552000" />
+    <option name="totallyTimeSpent" value="25120000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -575,16 +596,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/exam/medium/Divide/DivideTwoIntegers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="69" column="34" lean-forward="true" selection-start-line="69" selection-start-column="24" selection-end-line="69" selection-end-column="34" />
+        <state relative-caret-position="275">
+          <caret line="22" column="5" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="22" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/exam/medium/palindromicNumber/PrimePalindrome.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="497">
-          <caret line="37" column="24" lean-forward="true" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
+        <state relative-caret-position="313">
+          <caret line="39" column="9" lean-forward="true" selection-start-line="37" selection-start-column="8" selection-end-line="39" selection-end-column="9" />
           <folding />
         </state>
       </provider>

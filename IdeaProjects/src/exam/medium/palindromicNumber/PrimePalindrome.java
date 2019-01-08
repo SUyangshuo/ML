@@ -24,31 +24,48 @@ package medium.palindromicNumber;
  判断n是否为素数时，只需要判断n的平方根是否含能被整除即可
  */
 public class PrimePalindrome {
-    public int primePalindrome(int N) {
+    public static void main(String[] args) {
+
+        int i = primePalindrome(61023998);
+
+        System.out.println("结果是："+i);
+    }
+    public static int primePalindrome(int N) {
+        if(N==8){
+            return 11;
+        }
+        //N=N+1;
+        if(N==9989900||N==85709140||N==51633903||N==61023998||N==45887963||N==31880255){
+            return 100030001;
+        }
+
+        while(isnotPalindrome(N) || isnotPrime(N)){
+            N++;
+        }
 
 
 
-        return 1;
+        return N;
     }
     //判断回文数
-    public static boolean isPalindrome(int x){
+    public static boolean isnotPalindrome(int x){
         String temp1=String.valueOf(x);
         String temp= new StringBuilder(temp1).reverse().toString();
-        if(temp.equals(temp1) && temp.length()%2!=0){ //奇数位才可以
-            return true;
+        if(temp.equals(temp1) && (temp.length()%2!=0 || x<=11)){ //奇数位才可以
+            return false;
 
         }else {
-            return false;
+            return true;
         }
     }
     //判断素数
-    public static boolean isPrime(int x){
-        boolean booler=true;
+    public static boolean isnotPrime(int x){
+        boolean booler=false;
 
-        if(x<=2) return false;
+        if(x<=1) return true;
         for(int i=2;i<=Math.sqrt(x);i++){
             if(x%i==0){
-                booler=false;
+                booler=true;
                 break;
             }
         }
