@@ -38,9 +38,11 @@
       <file leaf-file-name="ContainsDuplicate3.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/exam/medium/ContainsDuplicate/ContainsDuplicate3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="49" column="18" lean-forward="true" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="18" />
-              <folding />
+            <state relative-caret-position="308">
+              <caret line="33" column="68" lean-forward="true" selection-start-line="33" selection-start-column="68" selection-end-line="33" selection-end-column="68" />
+              <folding>
+                <element signature="e#842#848#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -401,12 +403,12 @@
       <workItem from="1546002165080" duration="2796000" />
       <workItem from="1546415562641" duration="3066000" />
       <workItem from="1546501275249" duration="4469000" />
-      <workItem from="1546602666283" duration="19494000" />
+      <workItem from="1546602666283" duration="19852000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34651000" />
+    <option name="totallyTimeSpent" value="35009000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -650,9 +652,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/exam/medium/ContainsDuplicate/ContainsDuplicate3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="49" column="18" lean-forward="true" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="18" />
-          <folding />
+        <state relative-caret-position="308">
+          <caret line="33" column="68" lean-forward="true" selection-start-line="33" selection-start-column="68" selection-end-line="33" selection-end-column="68" />
+          <folding>
+            <element signature="e#842#848#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -6,6 +6,8 @@ package medium.ContainsDuplicate;
  * @comment
  */
 
+import java.util.TreeSet;
+
 /**
  * Given an array of integers,
  * find out whether there are two distinct indices i and j in the array such
@@ -24,47 +26,22 @@ public class ContainsDuplicate3 {
     }
     public static boolean containsNearbyAlmostDuplicate(int[] nums, int k, int t) {
 
-        if(nums.length<2 || k<0  || t<0){
-            return false;
-        }
-        int max=k;
+        if(nums==null||nums.length==0||k<=0) return false;
 
-        while(max<nums.length){
-            int i=max-k;
+        TreeSet<Long> treeSet = new TreeSet<Long>(); //注意这个数据结构 treeset
+        for(int i=0;i<nums.length;i++){
 
-            int lastmin=nums[i];
-            int min=nums[i];
+            final Long floor = treeSet.floor((long)nums[i]+t); //取出treeset中nums[i]+t下最大的
+            final Long ceil = treeSet.ceiling((long)nums[i]-t);
 
-            while(i<=max){//todo:取出k窗口内的两个最小值
-                if(nums[i]<=min){
-                    lastmin=min;
-                    min=nums[i];
-                }
-                i++;
-
-            }
-
-            if(Math.abs(min-lastmin)<t){
+            if((floor!=null&&floor>=(long)nums[i])||
+                    (ceil!=null&&ceil<=(long)nums[i])){
                 return true;
             }
-            max++;
-        }
 
-        if(max>=nums.length){
-            max=nums.length-1;
-            int i=0;
-            int lastmin=nums[i];
-            int min=nums[i];
-
-            while(i<=max){//todo:取出k窗口内的两个最小值
-                if(nums[i]<=min){
-                    lastmin=min;
-                    min=nums[i];
-                }
-
-            }
-            if(Math.abs(min-lastmin)<t){
-                return true;
+            treeSet.add((long)nums[i]);
+            if(i>=k){        //因为元素的坐标差不能超过k，所以在treeSet中最多只能有k个元素
+                treeSet.remove((long)nums[i-k]);
             }
         }
         return false;
