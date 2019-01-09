@@ -35,7 +35,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ContainsDuplicate3.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ContainsDuplicate3.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/exam/medium/ContainsDuplicate/ContainsDuplicate3.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="308">
@@ -43,6 +43,16 @@
               <folding>
                 <element signature="e#842#848#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="judgeIPAddress.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/exam/medium/ValidateIPAddress/judgeIPAddress.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="915">
+              <caret line="61" column="13" lean-forward="true" selection-start-line="61" selection-start-column="13" selection-end-line="61" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -72,6 +82,7 @@
         <option value="$PROJECT_DIR$/src/exam/medium/palindromicNumber/PrimePalindrome.java" />
         <option value="$PROJECT_DIR$/src/exam/medium/FractionToRecurringDecimal/Fraction.java" />
         <option value="$PROJECT_DIR$/src/exam/medium/ContainsDuplicate/ContainsDuplicate3.java" />
+        <option value="$PROJECT_DIR$/src/exam/medium/ValidateIPAddress/judgeIPAddress.java" />
       </list>
     </option>
   </component>
@@ -131,14 +142,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="exam" type="462c0819:PsiDirectoryNode" />
               <item name="medium" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ysdemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IdeaProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="exam" type="462c0819:PsiDirectoryNode" />
-              <item name="medium" type="462c0819:PsiDirectoryNode" />
-              <item name="ContainsDuplicate" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ysdemo" type="b2602c69:ProjectViewProjectNode" />
@@ -403,12 +406,12 @@
       <workItem from="1546002165080" duration="2796000" />
       <workItem from="1546415562641" duration="3066000" />
       <workItem from="1546501275249" duration="4469000" />
-      <workItem from="1546602666283" duration="19852000" />
+      <workItem from="1546602666283" duration="22528000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35009000" />
+    <option name="totallyTimeSpent" value="37685000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -657,6 +660,14 @@
           <folding>
             <element signature="e#842#848#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exam/medium/ValidateIPAddress/judgeIPAddress.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="915">
+          <caret line="61" column="13" lean-forward="true" selection-start-line="61" selection-start-column="13" selection-end-line="61" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
