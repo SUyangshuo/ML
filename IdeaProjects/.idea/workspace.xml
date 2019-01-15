@@ -68,8 +68,8 @@
       <file leaf-file-name="SurroundedRegions.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/exam/medium/ergodic/SurroundedRegions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="422">
-              <caret line="60" column="18" lean-forward="false" selection-start-line="60" selection-start-column="18" selection-end-line="60" selection-end-column="18" />
+            <state relative-caret-position="408">
+              <caret line="69" column="29" lean-forward="true" selection-start-line="69" selection-start-column="29" selection-end-line="69" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -436,12 +436,12 @@
       <workItem from="1546415562641" duration="3066000" />
       <workItem from="1546501275249" duration="4469000" />
       <workItem from="1546602666283" duration="22610000" />
-      <workItem from="1547104648610" duration="16736000" />
+      <workItem from="1547104648610" duration="16998000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54503000" />
+    <option name="totallyTimeSpent" value="54765000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -732,8 +732,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/exam/medium/ergodic/SurroundedRegions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="60" column="18" lean-forward="false" selection-start-line="60" selection-start-column="18" selection-end-line="60" selection-end-column="18" />
+        <state relative-caret-position="408">
+          <caret line="69" column="29" lean-forward="true" selection-start-line="69" selection-start-column="29" selection-end-line="69" selection-end-column="29" />
           <folding />
         </state>
       </provider>

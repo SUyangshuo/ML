@@ -62,8 +62,17 @@ public class SurroundedRegions {
 
         for(int i=0;i<x;i++){
             for(int j=0;j<y;j++){
+                if(board[x][y]=='x'  || board[x][y]=='o'){
+                    System.out.print("x ");
+                    continue;
+                }else  if(board[x][y]=='$'){
+                    System.out.print("o ");
+                    continue;
+                }
 
             }
+            System.out.println();
+
         }
     }
     //利用bfs进行广度优先遍历，使用队列 先进先出
