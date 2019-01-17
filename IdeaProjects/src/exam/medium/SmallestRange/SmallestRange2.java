@@ -6,6 +6,9 @@ package medium.SmallestRange;
  * @comment
  */
 
+import java.lang.reflect.Array;
+import java.util.Arrays;
+
 /**
  * Given an array A of integers, for each integer A[i] we need to choose either x = -K or x = K, and add x to A[i] (only once).
 
@@ -17,20 +20,31 @@ package medium.SmallestRange;
  */
 public class SmallestRange2 {
     //todo：首先对a进行排序 这个时间复杂度是logn  然后根据两个性质
-    //性质1：如果A[i]需要+k 则在A[i]以后的元素都要+k
-    //性质2：如果A[i]需要-k，则在A[i]之前的元素都要-k
+    //性质1：如果A[i]需要+k 则在A[i]之前的元素都要+k
+    //性质2：如果A[i]需要-k，则在A[i]之后的元素都要-k
     public int smallestRangeII(int[] A, int K) {
         int j=A.length;
         int i=0;
         int tempNumber=A[0];
         sortstep1(A,i,j);
 
+
+        Arrays.sort(A);
+        int min= A[0]+K;
+        int max= A[A.length-1]-K;
+
         //现在a是有序的，进行枚举
+        int res=0;
         for(int s=0;s<A.length;s++){
-            
+            int max2 = Math.max(max,A[s]+K);
+
+            int min2 = Math.min(min,A[s+1]-K);
+
+            res=res<(max2-min2)?res:(max2-min2);
         }
 
-        return 0;
+
+        return res;
     }
     //使用快速排序
     public static void sortstep1(int[] a,int i,int j){
