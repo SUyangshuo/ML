@@ -38,8 +38,19 @@ import java.util.LinkedList;
 
 //首先遍历周围一圈的字母，发现有o的就从该点进行BFS，并且把遍历到的o 改为$ 在周围一圈遍历完成后，把所有的$ 变成o 把所有的o变成x
 public class SurroundedRegions {
+    public  static int t=1;
+    public static void main(String[] args) {
+        char[][] a={{'X','O','X','O','X','O'}
+                        ,{'O','X','O','X','O','X'}
+                        ,{'X','O','X','O','X','O'}
+                        ,{'O','X','O','X','O','X'}};
 
-    public void solve(char[][] board) {
+        solve(a);
+
+    }
+
+
+    public static void solve(char[][] board) {
         if(board.length<=1 || board[0].length<=1){
             return;
         }
@@ -52,7 +63,7 @@ public class SurroundedRegions {
 
         }
 
-        for(int i=0;i<y;i++){
+        for(int i=0;i<x;i++){
             full(board,i,0); //第一列元素
             full(board,i,y-1); //最后一列元素
 
@@ -62,59 +73,64 @@ public class SurroundedRegions {
 
         for(int i=0;i<x;i++){
             for(int j=0;j<y;j++){
-                if(board[x][y]=='x'  || board[x][y]=='o'){
-                    System.out.print("x ");
+                if(board[i][j]=='X'  || board[i][j]=='O'){
+                    board[i][j]='X';
+
                     continue;
-                }else  if(board[x][y]=='$'){
-                    System.out.print("o ");
+                }else  if(board[i][j]=='$'){
+                    board[i][j]='O';
+
+
                     continue;
                 }
 
             }
             System.out.println();
 
+
         }
     }
     //利用bfs进行广度优先遍历，使用队列 先进先出
-    public void full(char[][] board,int x,int y){
-        if(board[x][y]=='x'){
+    public static void full(char[][] board,int x,int y){
+        if(board[x][y]!='O'){
             return;
-        }else if(board[x][y]=='o'){
-            board[x][y]='x';
+        }else if(board[x][y]=='O'){
+            board[x][y]='$';
         }
         LinkedList<Integer> quen=new LinkedList<>();
         //记录当前的坐标
-        Integer temp = x*board.length+y;
+        Integer temp = x*board[0].length+y;
         quen.add(temp);
 
         while(!quen.isEmpty()){
-            int i=quen.poll()/board.length;
-            int z=quen.poll()%board.length;
+           int tt = quen.poll();
+            int i=tt/board[0].length;//横坐标
+            int z=tt%board[0].length;//纵坐标
 
             //todo:查看该点上下左右的位置是否有‘o'
-            if(y-1>0 && board[y-1][x]=='o'){
-                quen.add(x*board.length+y-1);
-                board[x][y-1]='$';
+            if(z-1>0 && board[i][z-1]=='O'){  //该点左边
+                quen.add(i*board[0].length+z-1);
+                board[i][z-1]='$';
             }
-            if(x-1>0 && board[y][x-1]=='o'){
-                quen.add((x-1)*board.length+y);
-                board[x-1][y]='$';
-            }
-
-            if(y+1<board[0].length && board[y+1][x]=='o'){
-                quen.add(x*board.length+y+1);
-                board[x][y+1]='$';
+            if(i-1>0 && board[i-1][z]=='O'){   //该点下边
+                quen.add((i-1)*board[0].length+z);
+                board[i-1][z]='$';
             }
 
-            if(x+1<board.length && board[x+1][y]=='o'){
-                quen.add((x+1)*board.length+y);
-                board[x+1][y]='$';
+            if(z+1<board[0].length && board[i][z+1]=='O'){ //该点右边
+                quen.add(i*board[0].length+z+1);
+                board[i][z+1]='$';
+            }
+
+            if(i+1<board.length && board[i+1][z]=='O'){ //该店上边
+                quen.add((i+1)*board[0].length+z);
+                board[i+1][z]='$';
             }
         }
-
-
-
-
-
     }
+
+    //ac版本
+
+
+
 }
