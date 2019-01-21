@@ -22,11 +22,19 @@ public class SmallestRange2 {
     //todo：首先对a进行排序 这个时间复杂度是logn  然后根据两个性质
     //性质1：如果A[i]需要+k 则在A[i]之前的元素都要+k
     //性质2：如果A[i]需要-k，则在A[i]之后的元素都要-k
-    public int smallestRangeII(int[] A, int K) {
-        int j=A.length;
+
+
+    public static void main(String[] args) {
+        int[] a={0,10};
+
+        smallestRangeII(a,2);
+
+    }
+    public static int  smallestRangeII(int[] A, int K) {
+         int j=A.length-1;
         int i=0;
         int tempNumber=A[0];
-        sortstep1(A,i,j);
+        //sortstep1(A,i,j);
 
 
         Arrays.sort(A);
@@ -34,11 +42,18 @@ public class SmallestRange2 {
         int max= A[A.length-1]-K;
 
         //现在a是有序的，进行枚举
-        int res=0;
-        for(int s=0;s<A.length;s++){
+        int res=A[j]-A[i];
+
+        System.out.println(res);
+
+
+
+        for(int s=0;s<A.length-1;s++){
             int max2 = Math.max(max,A[s]+K);
 
             int min2 = Math.min(min,A[s+1]-K);
+
+            System.out.println("第"+s+"次计算出来的最大值是"+max2+",最小值是"+min2);
 
             res=res<(max2-min2)?res:(max2-min2);
         }
