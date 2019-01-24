@@ -63,12 +63,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DecodedStringatIndex.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DecodedStringatIndex.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/exam/medium/DecodedStringAtIndex/DecodedStringatIndex.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="489">
-              <caret line="111" column="5" lean-forward="false" selection-start-line="62" selection-start-column="4" selection-end-line="111" selection-end-column="5" />
+            <state relative-caret-position="255">
+              <caret line="17" column="5" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="17" selection-end-column="5" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IIISum.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/exam/medium/IIIsum/IIISum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="79" column="27" lean-forward="true" selection-start-line="79" selection-start-column="27" selection-end-line="79" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -147,6 +159,7 @@
         <option value="$PROJECT_DIR$/src/exam/medium/CompareVersionNumbers/CompareVersion.java" />
         <option value="$PROJECT_DIR$/src/exam/medium/ergodic/WordLadderI.java" />
         <option value="$PROJECT_DIR$/src/exam/medium/DecodedStringAtIndex/DecodedStringatIndex.java" />
+        <option value="$PROJECT_DIR$/src/exam/medium/IIIsum/IIISum.java" />
       </list>
     </option>
   </component>
@@ -245,7 +258,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DecodedStringatIndex">
+  <component name="RunManager" selected="Application.IIISum">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -291,14 +304,14 @@
       <module name="IdeaProjects" />
       <envs />
     </configuration>
-    <configuration name="SmallestRange2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="IIISum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="medium.SmallestRange.*" />
+          <option name="PATTERN" value="medium.IIIsum.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="medium.SmallestRange.SmallestRange2" />
+      <option name="MAIN_CLASS_NAME" value="medium.IIIsum.IIISum" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -310,14 +323,14 @@
       <module name="IdeaProjects" />
       <envs />
     </configuration>
-    <configuration name="SurroundedRegions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="SmallestRange2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="medium.ergodic.*" />
+          <option name="PATTERN" value="medium.SmallestRange.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="medium.ergodic.SurroundedRegions" />
+      <option name="MAIN_CLASS_NAME" value="medium.SmallestRange.SmallestRange2" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -423,19 +436,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.SurroundedRegions" />
-      <item index="1" class="java.lang.String" itemvalue="Application.SmallestRange2" />
-      <item index="2" class="java.lang.String" itemvalue="Application.CompareVersion" />
-      <item index="3" class="java.lang.String" itemvalue="Application.WordLadderI" />
-      <item index="4" class="java.lang.String" itemvalue="Application.DecodedStringatIndex" />
+      <item index="0" class="java.lang.String" itemvalue="Application.SmallestRange2" />
+      <item index="1" class="java.lang.String" itemvalue="Application.CompareVersion" />
+      <item index="2" class="java.lang.String" itemvalue="Application.WordLadderI" />
+      <item index="3" class="java.lang.String" itemvalue="Application.DecodedStringatIndex" />
+      <item index="4" class="java.lang.String" itemvalue="Application.IIISum" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.DecodedStringatIndex" />
-        <item index="1" class="java.lang.String" itemvalue="Application.WordLadderI" />
-        <item index="2" class="java.lang.String" itemvalue="Application.CompareVersion" />
-        <item index="3" class="java.lang.String" itemvalue="Application.SmallestRange2" />
-        <item index="4" class="java.lang.String" itemvalue="Application.SurroundedRegions" />
+        <item index="0" class="java.lang.String" itemvalue="Application.IIISum" />
+        <item index="1" class="java.lang.String" itemvalue="Application.DecodedStringatIndex" />
+        <item index="2" class="java.lang.String" itemvalue="Application.WordLadderI" />
+        <item index="3" class="java.lang.String" itemvalue="Application.CompareVersion" />
+        <item index="4" class="java.lang.String" itemvalue="Application.SmallestRange2" />
       </list>
     </recent_temporary>
   </component>
@@ -472,12 +485,12 @@
       <workItem from="1546501275249" duration="4469000" />
       <workItem from="1546602666283" duration="22610000" />
       <workItem from="1547104648610" duration="34642000" />
-      <workItem from="1548142277457" duration="18221000" />
+      <workItem from="1548142277457" duration="25325000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90630000" />
+    <option name="totallyTimeSpent" value="97734000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -532,16 +545,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/exam/medium/SmallestRange/SmallestRange2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="36" column="17" lean-forward="true" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/exam/medium/CompareVersionNumbers/CompareVersion.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -913,9 +916,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/exam/medium/DecodedStringAtIndex/DecodedStringatIndex.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="489">
-          <caret line="111" column="5" lean-forward="false" selection-start-line="62" selection-start-column="4" selection-end-line="111" selection-end-column="5" />
+        <state relative-caret-position="255">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="17" selection-end-column="5" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exam/medium/IIIsum/IIISum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="79" column="27" lean-forward="true" selection-start-line="79" selection-start-column="27" selection-end-line="79" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
