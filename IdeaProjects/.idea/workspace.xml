@@ -53,11 +53,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WordLadderI.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="WordLadderI.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/exam/medium/ergodic/WordLadderI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
-              <caret line="90" column="13" lean-forward="true" selection-start-line="90" selection-start-column="13" selection-end-line="90" selection-end-column="13" />
+            <state relative-caret-position="378">
+              <caret line="48" column="5" lean-forward="true" selection-start-line="36" selection-start-column="3" selection-end-line="48" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DecodedStringatIndex.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/exam/medium/DecodedStringAtIndex/DecodedStringatIndex.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="489">
+              <caret line="111" column="5" lean-forward="false" selection-start-line="62" selection-start-column="4" selection-end-line="111" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -136,6 +146,7 @@
         <option value="$PROJECT_DIR$/src/exam/medium/SmallestRange/SmallestRange2.java" />
         <option value="$PROJECT_DIR$/src/exam/medium/CompareVersionNumbers/CompareVersion.java" />
         <option value="$PROJECT_DIR$/src/exam/medium/ergodic/WordLadderI.java" />
+        <option value="$PROJECT_DIR$/src/exam/medium/DecodedStringAtIndex/DecodedStringatIndex.java" />
       </list>
     </option>
   </component>
@@ -202,14 +213,6 @@
               <item name="IdeaProjects" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="exam" type="462c0819:PsiDirectoryNode" />
-              <item name="medium" type="462c0819:PsiDirectoryNode" />
-              <item name="ergodic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ysdemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IdeaProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="exam" type="462c0819:PsiDirectoryNode" />
               <item name="Tool" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -242,7 +245,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.WordLadderI">
+  <component name="RunManager" selected="Application.DecodedStringatIndex">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -269,14 +272,14 @@
       <module name="IdeaProjects" />
       <envs />
     </configuration>
-    <configuration name="DecodeWaysFirst" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="DecodedStringatIndex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="medium.dp.*" />
+          <option name="PATTERN" value="medium.DecodedStringAtIndex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="medium.dp.DecodeWaysFirst" />
+      <option name="MAIN_CLASS_NAME" value="medium.DecodedStringAtIndex.DecodedStringatIndex" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -420,19 +423,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.DecodeWaysFirst" />
-      <item index="1" class="java.lang.String" itemvalue="Application.SurroundedRegions" />
-      <item index="2" class="java.lang.String" itemvalue="Application.SmallestRange2" />
-      <item index="3" class="java.lang.String" itemvalue="Application.CompareVersion" />
-      <item index="4" class="java.lang.String" itemvalue="Application.WordLadderI" />
+      <item index="0" class="java.lang.String" itemvalue="Application.SurroundedRegions" />
+      <item index="1" class="java.lang.String" itemvalue="Application.SmallestRange2" />
+      <item index="2" class="java.lang.String" itemvalue="Application.CompareVersion" />
+      <item index="3" class="java.lang.String" itemvalue="Application.WordLadderI" />
+      <item index="4" class="java.lang.String" itemvalue="Application.DecodedStringatIndex" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.WordLadderI" />
-        <item index="1" class="java.lang.String" itemvalue="Application.CompareVersion" />
-        <item index="2" class="java.lang.String" itemvalue="Application.SmallestRange2" />
-        <item index="3" class="java.lang.String" itemvalue="Application.SurroundedRegions" />
-        <item index="4" class="java.lang.String" itemvalue="Application.DecodeWaysFirst" />
+        <item index="0" class="java.lang.String" itemvalue="Application.DecodedStringatIndex" />
+        <item index="1" class="java.lang.String" itemvalue="Application.WordLadderI" />
+        <item index="2" class="java.lang.String" itemvalue="Application.CompareVersion" />
+        <item index="3" class="java.lang.String" itemvalue="Application.SmallestRange2" />
+        <item index="4" class="java.lang.String" itemvalue="Application.SurroundedRegions" />
       </list>
     </recent_temporary>
   </component>
@@ -469,12 +472,12 @@
       <workItem from="1546501275249" duration="4469000" />
       <workItem from="1546602666283" duration="22610000" />
       <workItem from="1547104648610" duration="34642000" />
-      <workItem from="1548142277457" duration="10650000" />
+      <workItem from="1548142277457" duration="18221000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83059000" />
+    <option name="totallyTimeSpent" value="90630000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -497,12 +500,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19467956" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27932286" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19385515" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1423462" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22103004" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -529,14 +532,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/exam/medium/ergodic/SurroundedRegions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1485">
-          <caret line="99" column="26" lean-forward="true" selection-start-line="99" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/exam/medium/SmallestRange/SmallestRange2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
@@ -910,8 +905,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/exam/medium/ergodic/WordLadderI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="90" column="13" lean-forward="true" selection-start-line="90" selection-start-column="13" selection-end-line="90" selection-end-column="13" />
+        <state relative-caret-position="378">
+          <caret line="48" column="5" lean-forward="true" selection-start-line="36" selection-start-column="3" selection-end-line="48" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exam/medium/DecodedStringAtIndex/DecodedStringatIndex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="111" column="5" lean-forward="false" selection-start-line="62" selection-start-column="4" selection-end-line="111" selection-end-column="5" />
           <folding />
         </state>
       </provider>
