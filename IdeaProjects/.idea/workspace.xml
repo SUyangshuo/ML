@@ -91,8 +91,8 @@
       <file leaf-file-name="ContinuousSubarraySumI.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/exam/medium/ContinuousSubarraySum/ContinuousSubarraySumI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="16" column="34" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="34" />
+            <state relative-caret-position="375">
+              <caret line="25" column="18" lean-forward="false" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -487,12 +487,12 @@
       <workItem from="1546501275249" duration="4469000" />
       <workItem from="1546602666283" duration="22610000" />
       <workItem from="1547104648610" duration="34642000" />
-      <workItem from="1548142277457" duration="35061000" />
+      <workItem from="1548142277457" duration="35190000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107470000" />
+    <option name="totallyTimeSpent" value="107599000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -929,8 +929,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/exam/medium/ContinuousSubarraySum/ContinuousSubarraySumI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="16" column="34" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="34" />
+        <state relative-caret-position="375">
+          <caret line="25" column="18" lean-forward="false" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
           <folding />
         </state>
       </provider>
