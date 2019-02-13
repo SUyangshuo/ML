@@ -13,16 +13,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Fraction.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/exam/medium/FractionToRecurringDecimal/Fraction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="5" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="14" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ContainsDuplicate3.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/exam/medium/ContainsDuplicate/ContainsDuplicate3.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -88,7 +78,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ContinuousSubarraySumI.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ContinuousSubarraySumI.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/exam/medium/ContinuousSubarraySum/ContinuousSubarraySumI.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="344">
@@ -96,6 +86,16 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SumofSubarrayMinimums.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/exam/medium/dp/SumofSubarrayMinimums.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="28" column="47" lean-forward="false" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -164,6 +164,7 @@
         <option value="$PROJECT_DIR$/src/exam/medium/DecodedStringAtIndex/DecodedStringatIndex.java" />
         <option value="$PROJECT_DIR$/src/exam/medium/IIIsum/IIISum.java" />
         <option value="$PROJECT_DIR$/src/exam/medium/ContinuousSubarraySum/ContinuousSubarraySumI.java" />
+        <option value="$PROJECT_DIR$/src/exam/medium/dp/SumofSubarrayMinimums.java" />
       </list>
     </option>
   </component>
@@ -224,6 +225,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="exam" type="462c0819:PsiDirectoryNode" />
               <item name="medium" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ysdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IdeaProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="exam" type="462c0819:PsiDirectoryNode" />
+              <item name="medium" type="462c0819:PsiDirectoryNode" />
+              <item name="dp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ysdemo" type="b2602c69:ProjectViewProjectNode" />
@@ -489,12 +498,12 @@
       <workItem from="1546501275249" duration="4469000" />
       <workItem from="1546602666283" duration="22610000" />
       <workItem from="1547104648610" duration="34642000" />
-      <workItem from="1548142277457" duration="38081000" />
+      <workItem from="1548142277457" duration="40859000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110490000" />
+    <option name="totallyTimeSpent" value="113268000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -549,14 +558,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/exam/Tool/sort/quicksort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="20" lean-forward="true" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/exam/medium/ergodic/WordLadderI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
@@ -936,6 +937,14 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exam/medium/dp/SumofSubarrayMinimums.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="28" column="47" lean-forward="false" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
+          <folding />
         </state>
       </provider>
     </entry>
