@@ -81,8 +81,8 @@
       <file leaf-file-name="ContinuousSubarraySumI.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/exam/medium/ContinuousSubarraySum/ContinuousSubarraySumI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
-              <caret line="88" column="40" lean-forward="true" selection-start-line="88" selection-start-column="40" selection-end-line="88" selection-end-column="40" />
+            <state relative-caret-position="210">
+              <caret line="14" column="5" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="14" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -90,21 +90,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SumofSubarrayMinimums.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SumofSubarrayMinimums.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/exam/medium/dp/SumofSubarrayMinimums.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="17" column="18" lean-forward="true" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+            <state relative-caret-position="368">
+              <caret line="75" column="0" lean-forward="true" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OnlineStockSpan.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="OnlineStockSpan.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/exam/medium/dp/OnlineStockSpan.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="7" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state relative-caret-position="255">
+              <caret line="17" column="29" lean-forward="false" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -164,8 +164,8 @@
         <option value="$PROJECT_DIR$/src/exam/medium/DecodedStringAtIndex/DecodedStringatIndex.java" />
         <option value="$PROJECT_DIR$/src/exam/medium/IIIsum/IIISum.java" />
         <option value="$PROJECT_DIR$/src/exam/medium/ContinuousSubarraySum/ContinuousSubarraySumI.java" />
-        <option value="$PROJECT_DIR$/src/exam/medium/dp/SumofSubarrayMinimums.java" />
         <option value="$PROJECT_DIR$/src/exam/medium/dp/OnlineStockSpan.java" />
+        <option value="$PROJECT_DIR$/src/exam/medium/dp/SumofSubarrayMinimums.java" />
       </list>
     </option>
   </component>
@@ -272,7 +272,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.IIISum">
+  <component name="RunManager" selected="Application.SumofSubarrayMinimums">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -337,14 +337,14 @@
       <module name="IdeaProjects" />
       <envs />
     </configuration>
-    <configuration name="SmallestRange2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="SumofSubarrayMinimums" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="medium.SmallestRange.*" />
+          <option name="PATTERN" value="medium.dp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="medium.SmallestRange.SmallestRange2" />
+      <option name="MAIN_CLASS_NAME" value="medium.dp.SumofSubarrayMinimums" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -450,19 +450,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.SmallestRange2" />
-      <item index="1" class="java.lang.String" itemvalue="Application.CompareVersion" />
-      <item index="2" class="java.lang.String" itemvalue="Application.WordLadderI" />
-      <item index="3" class="java.lang.String" itemvalue="Application.DecodedStringatIndex" />
-      <item index="4" class="java.lang.String" itemvalue="Application.IIISum" />
+      <item index="0" class="java.lang.String" itemvalue="Application.CompareVersion" />
+      <item index="1" class="java.lang.String" itemvalue="Application.WordLadderI" />
+      <item index="2" class="java.lang.String" itemvalue="Application.DecodedStringatIndex" />
+      <item index="3" class="java.lang.String" itemvalue="Application.IIISum" />
+      <item index="4" class="java.lang.String" itemvalue="Application.SumofSubarrayMinimums" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.IIISum" />
-        <item index="1" class="java.lang.String" itemvalue="Application.DecodedStringatIndex" />
-        <item index="2" class="java.lang.String" itemvalue="Application.WordLadderI" />
-        <item index="3" class="java.lang.String" itemvalue="Application.CompareVersion" />
-        <item index="4" class="java.lang.String" itemvalue="Application.SmallestRange2" />
+        <item index="0" class="java.lang.String" itemvalue="Application.SumofSubarrayMinimums" />
+        <item index="1" class="java.lang.String" itemvalue="Application.IIISum" />
+        <item index="2" class="java.lang.String" itemvalue="Application.DecodedStringatIndex" />
+        <item index="3" class="java.lang.String" itemvalue="Application.WordLadderI" />
+        <item index="4" class="java.lang.String" itemvalue="Application.CompareVersion" />
       </list>
     </recent_temporary>
   </component>
@@ -499,12 +499,12 @@
       <workItem from="1546501275249" duration="4469000" />
       <workItem from="1546602666283" duration="22610000" />
       <workItem from="1547104648610" duration="34642000" />
-      <workItem from="1548142277457" duration="43208000" />
+      <workItem from="1548142277457" duration="50655000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115617000" />
+    <option name="totallyTimeSpent" value="123064000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -925,26 +925,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/exam/medium/ContinuousSubarraySum/ContinuousSubarraySumI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="88" column="40" lean-forward="true" selection-start-line="88" selection-start-column="40" selection-end-line="88" selection-end-column="40" />
+        <state relative-caret-position="210">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="14" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/exam/medium/dp/SumofSubarrayMinimums.java">
+    <entry file="file://$PROJECT_DIR$/src/exam/medium/dp/OnlineStockSpan.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="17" column="18" lean-forward="true" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        <state relative-caret-position="255">
+          <caret line="17" column="29" lean-forward="false" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/exam/medium/dp/OnlineStockSpan.java">
+    <entry file="file://$PROJECT_DIR$/src/exam/medium/dp/SumofSubarrayMinimums.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="7" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state relative-caret-position="368">
+          <caret line="75" column="0" lean-forward="true" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
           <folding />
         </state>
       </provider>
