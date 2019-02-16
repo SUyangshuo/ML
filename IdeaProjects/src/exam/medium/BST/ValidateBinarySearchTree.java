@@ -63,7 +63,7 @@ public class ValidateBinarySearchTree {
         if(head == null)
             return head;
         RandomListNode node = head;
-        
+
         while(node!=null){
             RandomListNode newNode = new RandomListNode(node.label);
             newNode.next = node.next;

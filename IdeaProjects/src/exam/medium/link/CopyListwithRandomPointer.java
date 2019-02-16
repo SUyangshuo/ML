@@ -37,7 +37,7 @@ public class CopyListwithRandomPointer {
 
         while(newhead!=null ){
             if(newhead.random!=null)
-                newhead.next.random=head.random.next;
+                newhead.next.random=newhead.random.next;
 
 
             newhead=newhead.next.next;
