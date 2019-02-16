@@ -7,6 +7,7 @@ package medium.palindromicNumber;
  */
 
 /**
+ *  867. Prime Palindrome  回文素数
  * Find the smallest prime palindrome greater than or equal to N.
 
  Recall that a number is prime if it's only divisors are 1 and itself, and it is greater than 1.
@@ -20,7 +21,7 @@ package medium.palindromicNumber;
  判断大于n的最小回文素数
  1：首先是一个素数
  2：是一个回文数
- 可知偶数位的回文数都能被11整除，所以可以直接判断奇数位的回文数
+ 可知偶数位的回文数都能被11整除（肯定不是素数），所以可以直接判断奇数位的回文数
  判断n是否为素数时，只需要判断n的平方根是否含能被整除即可
  */
 public class PrimePalindrome {
@@ -69,7 +70,7 @@ public class PrimePalindrome {
         }
         return booler;
     }
-    public static boolean isnotPalindrome2(int x){
+    public static boolean isnotPalindrome2(int x){ //从个位开始反转
 
         int a, b, c;
         a = x;
