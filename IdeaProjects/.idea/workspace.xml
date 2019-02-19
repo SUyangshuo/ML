@@ -67,16 +67,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RangeSumOfBST.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/exam/medium/BST/RangeSumOfBST.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="LongestSubstringWithoutRepeatingCharacters.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/exam/medium/slidingWindow/LongestSubstringWithoutRepeatingCharacters.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -107,11 +97,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ShortestPalindrome.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ShortestPalindrome.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/exam/medium/palindromicNumber/ShortestPalindrome.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <caret line="9" column="49" lean-forward="false" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="kmp.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/exam/Tool/kmp/kmp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="583">
+              <caret line="42" column="12" lean-forward="true" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -169,6 +169,8 @@
         <option value="$PROJECT_DIR$/src/exam/medium/slidingWindow/LongestSubstringWithoutRepeatingCharacters.java" />
         <option value="$PROJECT_DIR$/src/exam/medium/palindromicNumber/PrimePalindrome.java" />
         <option value="$PROJECT_DIR$/src/exam/medium/palindromicNumber/LongestPalindromicSubstring.java" />
+        <option value="$PROJECT_DIR$/src/exam/medium/palindromicNumber/ShortestPalindrome.java" />
+        <option value="$PROJECT_DIR$/src/exam/Tool/kmp/kmp.java" />
       </list>
     </option>
   </component>
@@ -512,12 +514,12 @@
       <workItem from="1547104648610" duration="34642000" />
       <workItem from="1548142277457" duration="61657000" />
       <workItem from="1550198884972" duration="21748000" />
-      <workItem from="1550380810470" duration="244000" />
+      <workItem from="1550380810470" duration="3936000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="156058000" />
+    <option name="totallyTimeSpent" value="159750000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -572,13 +574,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/exam/medium/ergodic/WordLadderI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="43" column="24" lean-forward="false" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/exam/medium/palindromicNumber/PrimePalindrome.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="690">
@@ -939,7 +934,15 @@
     <entry file="file://$PROJECT_DIR$/src/exam/medium/palindromicNumber/ShortestPalindrome.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <caret line="9" column="49" lean-forward="false" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exam/Tool/kmp/kmp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="583">
+          <caret line="42" column="12" lean-forward="true" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
           <folding />
         </state>
       </provider>
