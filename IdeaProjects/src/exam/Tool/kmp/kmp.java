@@ -9,7 +9,7 @@ public class kmp {
     /**
      *kmp算法的基本原则是基于模式串前后存在相同的部分
      */
-    public static boolean kmpSearch(String a,String b){
+    public static int kmpSearch(String a,String b){
 
 
         char[] s=a.toCharArray();
@@ -42,8 +42,6 @@ public class kmp {
             return i - j;
         else
             return -1;
-
-        return false;
     }
 
 
@@ -75,4 +73,38 @@ public class kmp {
 
         return next;
     }
+    //next优化
+    public static int[] getNext2(String a){
+
+        //a为原串，b为子串
+        int[] next=new int[a.length()];
+
+        char[] p=a.toCharArray();
+
+        int i=0;
+
+        int k=-1;//长度为k 的相同前缀和后缀
+
+        next[0]=-1;//next数组的第一位是-1
+
+        while(i<a.length()){
+            if(k==-1 || p[i]==p[k]){
+
+                k++;
+                i++;
+
+                if(p[i]!=p[k]){//相加后 两个位置不相同
+                    next[i]=k;
+                }else{ //相加后，如果两个位置的元素相同 递归向前
+                    next[i]=next[k];
+                }
+            }else{
+                k=next[k];//相当于p[k] 跳到上一个有相同前后缀的地方
+            }
+
+        }
+
+        return next;
+    }
+
 }
