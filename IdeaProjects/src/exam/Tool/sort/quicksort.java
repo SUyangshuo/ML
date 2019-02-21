@@ -6,6 +6,21 @@ package Tool.sort;
  * @comment
  */
 public class quicksort {
+
+
+    public static void main(String[] args) {
+
+        int[] a=new int[]{2,1};
+        int k=2;
+
+        int i = sortstep1verxion2(a,0,a.length-1,k);
+        //String ss="abcdbbfcba";
+        //System.out.println(ss.substring(4,6));
+        System.out.println("结果是hi："+i);
+
+    }
+
+
     //版本一：使用快速排序  使用第一个值为比较值  时间复杂度为o(nlogn)
 
     public static void sortstep1(int[] a,int i,int j){
@@ -51,15 +66,19 @@ public class quicksort {
         int temp=a[i];//把第一个作为比较值
 
         while(i<j){
-            while(a[j]>temp && j>i){
+            while(a[j]>=temp && j>i){
                 j--;
             }
             swap(a,j,i);
-            while(a[i]<temp && i<j){
+            while(a[i]<=temp && i<j){
                 i++;
             }
             swap(a,i,j);
+
         }
+
+
+
         return i;
     }
 
@@ -77,17 +96,27 @@ public class quicksort {
 
     public static Integer sortstep1verxion2(int[] a,int i,int j,int k){
 
-        if(i>=j || k>a.length){
+        if(i>j || k>a.length){
             return null;
         }
+        if(a.length==1 && k==1){
+            return a[0];
+        }
         int temp=a.length-k;
-        int index2=sortstep2(a,i,j);
+
+        System.out.println("i："+i+"j:"+j);
+
+        Integer index2=sortstep2(a,i,j);
+
+        if(index2 == null){
+            return a[i];
+        }
 
 
-        if(temp<index2){
+        if(temp<index2 ){
             //说明k值在左边
             sortstep1verxion2(a,0,index2-1,k);
-        }else if(temp>index2){
+        }else if(temp>index2 || index2==0){
             sortstep1verxion2(a,index2+1,a.length-1,k);
 
         }
