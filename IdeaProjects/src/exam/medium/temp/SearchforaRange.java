@@ -20,31 +20,50 @@ public class SearchforaRange {
         int min=nums.length/2;
 
         int[] a=new int[]{-1,-1};
-        while(nums[min]!=target){
+        while(nums[min]!=target ){
+            if(min==0 || min==nums.length-1){
+                return a;
+            }
             if(nums[min]>target){
                 min=min/2;
             }else if(nums[min]<target) {
                 min=min+(nums.length-min)/2;
             }
         }
-
         int i=min-1,j=min+1;
 
-        while(i>=0 && j<nums.length){
-            if(nums[i]==target){
-                i--;
-                continue;
+
+
+            if(min==0){
+                a[0]=min;
+                while(nums[j]==target){
+                    j++;
+                }
+                a[1]=j-1;
+            }else if(min==nums.length-1){
+                a[1]=min;
+                while(nums[i]==target){
+                    i--;
+                }
+                a[1]=i+1;
+            }else {
+                while(i>=0 && j<nums.length){
+                    if(nums[i]==target){
+                        i--;
+                    }
+                    if(nums[j]==target){
+                        j++;
+                    }
+                }
+                a[0]=i+1;
+                a[1]=j-1;
 
             }
-            if(nums[j]==target){
-                j++;
-                continue;
-            }
-            break;
 
-        }
-        a[0]=i+1;
-        a[1]=j-1;
+
+
+
+
         return a;
     }
 }
