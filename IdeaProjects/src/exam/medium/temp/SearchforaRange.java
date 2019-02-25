@@ -43,7 +43,7 @@ public class SearchforaRange {
                 min=min+(nums.length-min)/2;
             }
         }
-
+    //jhjhgfjgvjk
         int i=min-1,j=min+1;
 
 
@@ -52,7 +52,11 @@ public class SearchforaRange {
                 a[0]=min;
                 if(j<nums.length){
                     while(nums[j]==target){
-                        j++;
+                        if(j+1<nums.length){
+                            j++;
+                        }else{
+                            break;
+                        }
                     }
                     a[1]=j-1;
                 }else{
@@ -63,7 +67,11 @@ public class SearchforaRange {
                 a[1]=min;
                 if(i>=0){
                     while(nums[i]==target){
-                        i--;
+                        if(i-1>=0){
+                            i--;
+                        }else{
+                            break;
+                        }
                     }
                     a[0]=i+1;
                 }else{
@@ -74,14 +82,22 @@ public class SearchforaRange {
 
                 while(i>=0){
                     if(nums[i]==target){
-                        i--;
+                        if(i-1>=0){
+                            i--;
+                        }else{
+                            break;
+                        }
                         continue;
                     }
                     break;
                 }
                 while(j<nums.length){
                     if(nums[j]==target){
-                        j++;
+                        if(j+1<nums.length){
+                            j++;
+                        }else{
+                            break;
+                        }
                         continue;
 
                     }
