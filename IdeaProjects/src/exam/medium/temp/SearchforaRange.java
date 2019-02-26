@@ -16,100 +16,43 @@ import java.util.Arrays;
 public class SearchforaRange {
     //直接使用二分查找
     //找到相应元素后就向左右遍历
-    public static void main(String[] args) {
 
 
-        int[] a = new int[]{2,2};
-          int[] b=new int[2];
-          b=searchRange(a,2);
-        System.out.print("结果是" + b[0]+"-----"+b[1]);
-    }
-    public static int[] searchRange(int[] nums, int target) {
-        int[] a=new int[]{-1,-1};
-
-        if(nums.length<1 || nums ==null){
-            return a;
-        }
-
-        int min=nums.length/2;
-
-        while(nums[min]!=target ){
-            if(min==0 || min==nums.length-1){
-                return a;
+        public int[] searchRange(int[] nums, int target){
+            //Method 2
+            int[] res = {-1, -1};
+            if (nums == null || nums.length == 0) {
+                return res;
             }
-            if(nums[min]>target){
-                min=min/2;
-            }else if(nums[min]<target) {
-                min=min+(nums.length-min)/2;
+            //find left bound
+            int ll = 0;
+            int lr = nums.length - 1;
+            while (ll <= lr) {
+                int mid = ll + (lr - ll) / 2;
+                if (nums[mid] < target) {
+                    ll = mid + 1;
+                } else {
+                    lr = mid - 1;
+                }
             }
-        }
-    //jhjhgfjgvjk
-        int i=min-1,j=min+1;
-
-
-
-            if(min==0){
-                a[0]=min;
-                if(j<nums.length){
-                    while(nums[j]==target){
-                        if(j+1<nums.length){
-                            j++;
-                        }else{
-                            break;
-                        }
-                    }
-                    a[1]=j-1;
-                }else{
-                    a[1]=min;
+            //find right bound
+            int rl = 0;
+            int rr = nums.length - 1;
+            while (rl <= rr) {
+                int mid = rl + (rr - rl) / 2;
+                if (nums[mid] <= target) {
+                    rl = mid + 1;
+                } else {
+                    rr = mid - 1;
                 }
-
-            }else if(min==nums.length-1){
-                a[1]=min;
-                if(i>=0){
-                    while(nums[i]==target){
-                        if(i-1>=0){
-                            i--;
-                        }else{
-                            break;
-                        }
-                    }
-                    a[0]=i+1;
-                }else{
-                    a[0]=min;
-                }
-
-            }else {
-
-                while(i>=0){
-                    if(nums[i]==target){
-                        if(i-1>=0){
-                            i--;
-                        }else{
-                            break;
-                        }
-                        continue;
-                    }
-                    break;
-                }
-                while(j<nums.length){
-                    if(nums[j]==target){
-                        if(j+1<nums.length){
-                            j++;
-                        }else{
-                            break;
-                        }
-                        continue;
-
-                    }
-                    break;
-                }
-                a[0]=i+1;
-                a[1]=j-1;
-
             }
+            //check if target is found
+            if (ll > rr) {
+                return res;
+            }
+            res[0] = ll;
+            res[1] = rr;
+            return res;
 
-
-
-        return a;
     }
 }
