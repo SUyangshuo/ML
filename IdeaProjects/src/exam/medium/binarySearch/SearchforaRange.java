@@ -1,4 +1,4 @@
-package medium.temp;
+package medium.binarySearch;
 
 import java.util.Arrays;
 
