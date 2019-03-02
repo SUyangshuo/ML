@@ -1,4 +1,4 @@
-package medium.temp;
+package medium.dp;
 
 /**
  * @author YangShuo
@@ -55,5 +55,11 @@ public class MaximumProductSubarray {
 
         return maxNumber;
     }
+    /**  最大子数组加
+     * dp问题 需要保留每次新增元素后的乘积最大值和最小值
+     * @param nums
+     * @return
+     */
+    //和上边相似，只需要保存最大值即可
 
 }
